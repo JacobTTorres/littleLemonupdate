@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --primaryGreen: rgba(73, 94, 87, 1);
+  --primaryYellow: rgba(244, 206, 20);
+
+  --secondarySalmon: rgba(228, 153, 144);
+  --secondaryPink: rgba(251, 218, 187);
+
+  --highlightWhite: rgba(237, 239, 238);
+  --highlightBlack: rgba(51, 51, 51);
+
+  /* typogophy */
+  --karla: 'Karla', sans-serif;
+  --markazi: 'Markazi Text', serif;
+}
+
+body,
+.outterApp {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--highlightBlack);
+  background-color: var(--highlightWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.outterApp {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 64px;
+  font-family: var(--markazi);
+  margin: 0%;
+}
+
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-size: 25px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-family: var(--karla);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--primaryYellow);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  width: 196.8px;
+  height: 64.8px;
+}
+
+a {
+  color: var(--highlightBlack);
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--karla);
+}
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  z-index: 2;
+}
+
+.headerBackdrop {
+  height: 415.8px;
+  width: 100vw;
+  background-color: var(--primaryGreen);
+  position: absolute;
+  top: 5vw;
+  z-index: 1;
+}
+
+Nav,
+Header,
+Main,
+Footer {
+  width: 960px;
+}

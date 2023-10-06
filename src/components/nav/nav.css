@@ -1,0 +1,44 @@
+.topNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 13.5vh;
+  width: 100%;
+  background-color: var(--highlightWhite);
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 13.5vh;
+  width: 960px;
+  background-color: var(--highlightWhite);
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 678.4px;
+  height: 124.7px;
+}
+
+.logo {
+  height: 78.5px;
+  width: 201.6px;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .navContainer {
+    width: 90%;
+  }
+  .logo {
+    height: 8vh;
+    width: 18vw;
+  }
+}

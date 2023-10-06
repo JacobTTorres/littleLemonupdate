@@ -1,0 +1,57 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contactHead,
+.MediaHead,
+.doormatHeader {
+  color: var(--primaryGreen);
+}
+
+.doormatContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.doormatNav,
+.contact,
+.socialMedia {
+  padding: 0;
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.address,
+.phoneNumber,
+.email {
+  margin: 0;
+}
+
+.MediaHead,
+.contactHead {
+  margin-bottom: 1.5rem;
+}
+
+.footerImg {
+  height: 281.8px;
+  width: 163.2px;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width:1000px){
+  footer{
+    width: 100%;
+    padding: 1rem;
+  }
+}
