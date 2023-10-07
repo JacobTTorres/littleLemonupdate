@@ -33,6 +33,7 @@ body,
 .outterApp {
   height: 100%;
   width: 100%;
+  position: absolute;
 }
 
 h1 {
@@ -87,8 +88,6 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
-  height: 100%;
   z-index: 2;
 }
 
@@ -106,4 +105,5 @@ Header,
 Main,
 Footer {
   width: 960px;
+  z-index: 3;
 }
