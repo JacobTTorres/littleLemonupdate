@@ -318,3 +318,69 @@ main {
 
   /* lowerHeader ^^^ */
 }
+
+@media screen and (max-width:750px) {
+  /* specials */
+  .specTop{     
+    height: 20vw;
+    margin: 0;
+  }
+
+  .specHeader{
+    font-size: 2.75rem;
+  }
+
+  .specBtn{
+    font-size: 1.5em;
+    height: 7vw;
+  }
+
+  .specBottom{
+    height: 60vw;
+  }
+
+  .card{
+    height: 60vw;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+  .cardImg{
+    width: 50%;
+    height: 50%;
+    border-radius: 16px;
+  }
+
+  /* testimonials */
+  .testHeader{
+    margin: 0;
+    font-size: 10vw;
+  }
+
+  .reviewContainer{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewCards{
+    width: 60%;
+  }
+
+  .reviewImg{
+    height: 15vw;
+    width: 15vw;
+  }
+}
+
+/* lower Header */
+
+.lowerHead{
+  font-size: 8vw;
+}
+.lowerLocation{
+  font-size: 4vw;
+  margin-bottom: .5rem;
+}
+.lowerInfo{
+  margin: 0;
+}

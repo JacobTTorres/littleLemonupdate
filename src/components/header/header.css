@@ -45,3 +45,20 @@ header {
     width: 35vw;
   }
 }
+
+
+@media screen and (max-width:750px) {
+  header{
+    height: 100%;
+  }
+  .headerTitle{
+    font-size: 9vw;
+  }
+  .location{
+    font-size: 5vw;
+  }
+  .resTableBtn{
+    font-size: 1em;
+    height: 7vw;
+  }
+}

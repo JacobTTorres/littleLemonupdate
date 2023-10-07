@@ -55,3 +55,20 @@ footer {
     padding: 1rem;
   }
 }
+
+@media screen and (max-width:750px) {
+  .footerImg{
+    height: 30vw;
+    width: 20vw;
+    margin-right: 2rem;
+  }
+
+  .doormatHeader,.contactHead,.MediaHead{
+    font-size: 3vw;
+  }
+
+  .phoneNumber,.address,.email,.footerLinks{
+    font-size: 1em;
+    margin: 0
+  }
+}
