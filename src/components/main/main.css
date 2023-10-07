@@ -1,6 +1,6 @@
 /* main-all */
 
-main{
+main {
   width: 960px;
 }
 
@@ -40,6 +40,7 @@ main{
 .specBtn {
   font-family: var(--markazi);
   font-size: 1.5em;
+  background-color: var(--primaryYellow);
 }
 
 .lowerCard {
@@ -222,15 +223,15 @@ main{
 
 .lowerRight {
   position: relative;
-  height: 25vw
+  height: 25vw;
 }
 
 .lowerLocation {
   margin-bottom: 4vh;
 }
 
-
-.bottomImg,.topImg{
+.bottomImg,
+.topImg {
   height: 17vw;
   width: 14vw;
   position: absolute;
@@ -252,63 +253,65 @@ main{
 
 /* lower-header ^^^*/
 
-@media screen and (max-width: 1000px){
-
-  main{
+@media screen and (max-width: 1000px) {
+  main {
     width: 100%;
   }
 
   /* specials */
-  .specials{
+  .specials {
     width: 100%;
   }
-  .specTop,.specBottom{
+  .specTop,
+  .specBottom {
     width: 90vw;
     height: 50vw;
   }
-  .specBottom{
+  .specBottom {
     height: 60vw;
     overflow: scroll;
     justify-content: center;
   }
 
-  .card{
-   margin: 0rem .5rem 1.5rem .5rem;
+  .card {
+    margin: 0rem 0.5rem 1.5rem 0.5rem;
   }
   /* specials ^^^ */
 
   /* testimonials */
 
-  .reviewContainer{
+  .reviewContainer {
     width: 90vw;
     height: 50vw;
     overflow: scroll;
   }
 
-  .reviewCards{
+  .reviewCards {
     margin: 1.5rem;
   }
   /* testimonials ^^^ */
 
   /* lowerHeader */
 
-  .lowerHeader{
+  .lowerHeader {
     width: 90%;
     height: 50vw;
     margin: 0 1.5rem;
   }
 
-  .lowerLeft,.lowerRight{
+  .lowerLeft,
+  .lowerRight {
     width: 45vw;
     height: 100%;
   }
 
-  .topImg,.bottomImg{
+  .topImg,
+  .bottomImg {
     height: 35vw;
     width: 28vw;
   }
 
-  .lowerInfo{
+  .lowerInfo {
     overflow: scroll;
     height: 50%;
   }

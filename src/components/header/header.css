@@ -28,16 +28,19 @@ header {
   border-radius: 16px;
 }
 
+.resTableBtn {
+  background-color: var(--primaryYellow);
+}
 
 @media screen and (max-width: 1000px) {
-  header{
+  header {
     width: 90%;
   }
-  .left{
+  .left {
     height: 35vw;
     width: 45%;
   }
-  .headerImg{
+  .headerImg {
     height: 40vw;
     width: 35vw;
   }
