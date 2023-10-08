@@ -2,6 +2,8 @@ import React from 'react';
 
 import './main.css';
 import GreekSaladImg from '../../icons_assets/greek salad.jpg';
+import Bruchetta from '../../icons_assets/bruchetta.svg';
+import LemonDessert from '../../icons_assets/lemon dessert.jpg';
 
 export default function Main() {
 	return (
@@ -13,11 +15,7 @@ export default function Main() {
 				</div>
 				<div className="specBottom">
 					<div className="card">
-						<img
-							src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
-							alt=""
-							className="cardImg"
-						/>
+						<img src={GreekSaladImg} alt="" className="cardImg" />
 						<div className="lowerCard">
 							<div className="specCardTop">
 								<h4 className="itemTitle">Greek salad</h4>
@@ -39,11 +37,7 @@ export default function Main() {
 						</div>
 					</div>
 					<div className="card">
-						<img
-							src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
-							alt=""
-							className="cardImg"
-						/>
+						<img src={Bruchetta} alt="" className="cardImg" />
 						<div className="lowerCard">
 							<div className="specCardTop">
 								<h4 className="itemTitle">Bruchetta</h4>
@@ -64,11 +58,7 @@ export default function Main() {
 						</div>
 					</div>
 					<div className="card">
-						<img
-							src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
-							alt=""
-							className="cardImg"
-						/>
+						<img src={LemonDessert} alt="" className="cardImg" />
 						<div className="lowerCard">
 							<div className="specCardTop">
 								<h4 className="itemTitle">Lemon Dessert</h4>
