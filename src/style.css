@@ -107,3 +107,9 @@ Footer {
   width: 960px;
   z-index: 3;
 }
+
+@media screen and (max-width:480) {
+  .appContainer{
+    width: 480px;
+  }
+}

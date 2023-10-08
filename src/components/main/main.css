@@ -299,6 +299,13 @@ main {
     margin: 0 1.5rem;
   }
 
+  .lowerHead{
+    font-size: 64px;
+  }
+  .lowerLocation{
+    font-size: 25px;
+  }
+
   .lowerLeft,
   .lowerRight {
     width: 45vw;
@@ -375,10 +382,10 @@ main {
 /* lower Header */
 
 .lowerHead{
-  font-size: 8vw;
+  font-size: 9vw;
 }
 .lowerLocation{
-  font-size: 4vw;
+  font-size: 5vw;
   margin-bottom: .5rem;
 }
 .lowerInfo{
