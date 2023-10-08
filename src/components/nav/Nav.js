@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import DropDownMenu from './DropDownMenu';
+import Logo from '../../icons_assets/Logo.svg';
 
 import './nav.css';
 
@@ -15,11 +16,7 @@ export default function Nav() {
 	return (
 		<nav className="topNavbar">
 			<div className="navContainer">
-				<img
-					src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg"
-					alt="Little Lemon img"
-					className="logo"
-				/>
+				<img src={Logo} alt="Little Lemon img" className="logo" />
 				<ul className="navLinks">
 					<li className="links">Home</li>
 					<li className="links">About</li>
